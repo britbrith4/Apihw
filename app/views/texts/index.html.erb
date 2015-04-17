@@ -1,0 +1,6 @@
+<%@texts=@texts.parsed_response%>
+  <%@texts["objects"].each do |hash|%>
+
+  <%= hash["date"] + hash["happiness"] %>
+
+  <% end %>
